@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ahead App
 
-## Getting Started
+Welcome to the Ahead App repository. This project is part of the Nxt Frontend assignment, designed and implemented using Next.js, TypeScript, Tailwind CSS, and ShadCn UI components.
 
-First, run the development server:
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Usage](#usage)
+
+
+## Overview
+
+The Ahead App is a modern, responsive landing page built to demonstrate frontend development skills. The project adheres to best practices in web development, ensuring performance, accessibility, and user experience.
+
+## Features
+
+- Responsive design using Tailwind CSS
+- Component-based architecture with Next.js and ShadCn UI components
+- TypeScript for type safety and better developer experience
+- Optimized for performance and SEO
+- Replicates the design and animations from the Dribbble video
+- Fully responsive and works seamlessly on different devices and screen sizes
+- High code quality and performance optimization
+
+## Technologies
+
+This project is built with:
+
+- [Next.js](https://nextjs.org/) - A React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [ShadCn UI](https://shadcn.dev/) - UI components built with Tailwind CSS
+
+## Setup
+
+To get a local copy of the project up and running, follow these steps:
+
+### Prerequisites
+
+- Node.js (>= 14.x)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/ahead-app.git
+   cd ahead-app
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Usage
+
+To start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
